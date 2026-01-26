@@ -4,4 +4,13 @@
   <artifactId>JavaPractise</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Automation_javapractice</name>
+<dependencies>  
+  <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+</dependencies>
 </project>
