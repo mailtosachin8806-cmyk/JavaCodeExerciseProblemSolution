@@ -20,9 +20,7 @@ public class LeaderNumbers {
 			{
 				maxRight=a[index];
 				System.out.println(maxRight);
-			}
-			
-			
+			}	
 		}
 		
 	}

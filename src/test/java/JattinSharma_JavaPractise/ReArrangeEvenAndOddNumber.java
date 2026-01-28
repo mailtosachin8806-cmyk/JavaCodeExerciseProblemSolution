@@ -3,6 +3,7 @@ package JattinSharma_JavaPractise;
 import java.util.Arrays;
 
 public class ReArrangeEvenAndOddNumber {
+//Question 14
 	public static void main(String[] args) {
 
 		int a[] = {1,4,2,5,7,3,8,9,13,12};

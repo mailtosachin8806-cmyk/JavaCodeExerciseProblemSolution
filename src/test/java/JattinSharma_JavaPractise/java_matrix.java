@@ -1,7 +1,7 @@
 package JattinSharma_JavaPractise;
 
 public class java_matrix {
-
+//Question1
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	//Transposition means to convert rows into column 	

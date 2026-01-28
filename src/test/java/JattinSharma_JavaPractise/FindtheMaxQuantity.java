@@ -32,10 +32,5 @@ public class FindtheMaxQuantity {
 		}
 		
 		System.out.println("product : " + product + " maxQuantity : " + maxQuantity);
-		
-		
-		
-		
-
 	}
 }

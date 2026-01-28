@@ -1,5 +1,5 @@
 package JattinSharma_JavaPractise;
-
+//Question 4
 public class Node {
 	
 	private int data;

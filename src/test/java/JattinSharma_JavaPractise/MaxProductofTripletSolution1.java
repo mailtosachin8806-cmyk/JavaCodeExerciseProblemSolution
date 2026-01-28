@@ -27,7 +27,6 @@ public class MaxProductofTripletSolution1 {
 
 		int result = Math.max(resultOne, resultTwo);
 		System.out.println("THe maximum number is : " + result);
-
 	}
 
 }

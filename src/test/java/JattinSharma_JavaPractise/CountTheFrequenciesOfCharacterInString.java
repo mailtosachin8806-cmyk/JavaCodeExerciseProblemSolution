@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CountTheFrequenciesOfCharacterInString {
-
+//Question 13
 	public static void main(String[] args) {
 		// 
 

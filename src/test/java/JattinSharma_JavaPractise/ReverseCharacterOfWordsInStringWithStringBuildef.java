@@ -16,7 +16,6 @@ public class ReverseCharacterOfWordsInStringWithStringBuildef {
 		}
 		
 		System.out.println(result);
-
 	}
 
 }

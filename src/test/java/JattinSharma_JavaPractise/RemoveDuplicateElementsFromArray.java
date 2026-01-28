@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class RemoveDuplicateElementsFromArray {
-
+//Question 6 and Question 7
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*

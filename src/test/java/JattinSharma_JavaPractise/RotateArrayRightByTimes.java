@@ -12,8 +12,7 @@ public class RotateArrayRightByTimes {
 		//Rotate the array 3 times
 		int n=3;
 		int k= n % a.length;
-		//Reverse Array
-		
+		//Reverse Array	
 	//	int k=3;
 		int left = 0;
 		int right = a.length-1;

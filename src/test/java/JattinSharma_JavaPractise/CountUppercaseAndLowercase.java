@@ -1,7 +1,7 @@
 package JattinSharma_JavaPractise;
 
 public class CountUppercaseAndLowercase {
-
+//Question 9
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String input= "aAbBcCdDttgghhASDFGHJKLBN";

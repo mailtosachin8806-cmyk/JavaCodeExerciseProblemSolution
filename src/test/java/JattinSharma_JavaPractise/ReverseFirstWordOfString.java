@@ -9,7 +9,6 @@ public class ReverseFirstWordOfString {
 		
 		String input = "Hello World from Sachin";
 		reverseFirstWord(input);
-
 	}
 	
 	public static void reverseFirstWord(String input) {

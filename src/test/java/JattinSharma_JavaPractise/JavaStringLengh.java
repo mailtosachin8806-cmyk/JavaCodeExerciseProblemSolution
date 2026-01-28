@@ -2,6 +2,8 @@ package JattinSharma_JavaPractise;
 
 import org.testng.annotations.Test;
 
+//Question 2 and 3
+
 public class JavaStringLengh {
 	
 	@Test(description="Length of string using tochararray()")

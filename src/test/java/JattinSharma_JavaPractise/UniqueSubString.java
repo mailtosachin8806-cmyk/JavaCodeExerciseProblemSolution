@@ -26,8 +26,7 @@ public class UniqueSubString {
 		}
 		
 		System.out.println("Uniques String : " + sb);
-		
-		
+			
 	}
 
 }

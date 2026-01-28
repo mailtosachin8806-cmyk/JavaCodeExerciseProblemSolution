@@ -22,8 +22,7 @@ public class EncodeString {
 				sb.append(count);
 				count=1;
 			}
-		}
-		
+		}	
 		System.out.println(sb);
 	}
 
