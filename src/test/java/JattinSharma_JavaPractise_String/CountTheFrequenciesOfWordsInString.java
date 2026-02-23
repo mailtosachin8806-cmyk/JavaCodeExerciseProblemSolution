@@ -1,4 +1,4 @@
-package JattinSharma_JavaPractise;
+package JattinSharma_JavaPractise_String;
 
 import java.util.HashMap;
 import java.util.Map;
