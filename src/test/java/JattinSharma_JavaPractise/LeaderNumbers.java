@@ -5,7 +5,7 @@ public class LeaderNumbers {
 	
 	public static void main(String[] args) {
 		
-		int a[] = {16,17,4,3,5,2};
+		int a[] = {19,16,17,4,3,5,2};
 		
 		int length= a.length;
 		int maxRight = a[length-1];
