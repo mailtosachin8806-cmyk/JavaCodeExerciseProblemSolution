@@ -17,7 +17,7 @@ public class CountTheFrequenciesOfWordsInString {
 		{
 			result.put(data, result.getOrDefault(data, 0)+1);
 		}
-	//	System.out.println(result);
+		System.out.println(result);
 		
 		for( Map.Entry<String, Integer> entry : result.entrySet())
 		{
