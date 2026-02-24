@@ -37,7 +37,6 @@ public class RemoveDuplicateElementsFromArray {
 		System.out.println("Remove duplicate elements from array without using Set");
 
 		a = Arrays.stream(a).distinct().toArray();
-
 		System.out.println(Arrays.toString(a));
 
 	}
