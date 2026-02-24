@@ -9,17 +9,17 @@ public class RemoveDuplicateElementsFromArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * 1. Set:- Always store a unique value 2.HashSet :- Always store a unique value
-		 * but the order is not maintained. 3. TreeSet :- Always store a unique value
-		 * but retrieve the data in the assending order. 4. LinkedHashSet :- Unique
-		 * value and it will preserve the order
+		 * 1. Set:- Always store a unique value 
+		 * 2. HashSet :- Always store a unique value but the order is not maintained. 
+		 * 3. TreeSet :- Always store a unique value but retrieve the data in the assending order. 
+		 * 4. LinkedHashSet :- Unique value and it will preserve the order
 		 */
 
 		int a[] = { 20, 30, 10, 20, 40, 90, 50, 10, 60 };
 		System.out.println(Arrays.toString(a));
 		// output [20, 30, 10, 40, 90, 50, 60]
 		Set<Integer> dataSet = new LinkedHashSet<Integer>();
-		Integer i = new Integer(20);
+		Integer i = new Integer(20); //20 is a integer type object.
 		int data2 = i.intValue();
 
 		for (int data : a) {
