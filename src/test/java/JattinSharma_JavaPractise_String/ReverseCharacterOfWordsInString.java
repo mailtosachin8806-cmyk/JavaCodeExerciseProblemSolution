@@ -19,7 +19,6 @@ public class ReverseCharacterOfWordsInString {
 		 {
 			 temp= Character[left];
 			 Character[left] = Character[right];
-			 Character[right] = Character[left];
 			 Character[right] = temp;
 			 left++;
 			 right--;		 
@@ -28,9 +27,9 @@ public class ReverseCharacterOfWordsInString {
 		 result = result + new String(Character) + " ";	 
 		}
 		
-		System.out.println("Original String :" + input );
+		System.out.println("Original String : " + input );
 		
-		System.out.println("Reverse String :" + result.trim() );
+		System.out.println("Reverse String : " + result.trim() );
 		
 		
 		
