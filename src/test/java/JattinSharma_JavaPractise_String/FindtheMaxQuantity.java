@@ -7,7 +7,7 @@ public class FindtheMaxQuantity {
 	public static void main(String[] args) {
 		// Question number :- 27
 
-		String a[] = { "xyz 9", "abc 10", "xyz 21","erd 784" };
+		String a[] = { "xyz 9", "abc 10", "xyz 21","pqr 784" };
 		HashMap<String, Integer> hmap = new HashMap<String, Integer>();
 
 		for (String s : a) {
@@ -22,15 +22,15 @@ public class FindtheMaxQuantity {
 		System.out.println(hmap);
 		
 		String product ="";
-		int maxQuantity = 0;
+		int maxQuantity =0;
 		
 		for(Map.Entry<String, Integer>entryset : hmap.entrySet())
 		{
-			if(entryset.getValue()>maxQuantity)
+			if(entryset.getValue()>maxQuantity) {
 				maxQuantity  =	entryset.getValue();
 				product		 =	entryset.getKey();
 		}
-		
+		}
 		System.out.println("product : " + product + " maxQuantity : " + maxQuantity);
 	}
 }
