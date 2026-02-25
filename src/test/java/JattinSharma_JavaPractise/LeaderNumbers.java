@@ -10,7 +10,7 @@ public class LeaderNumbers {
 		int length= a.length;
 		int maxRight = a[length-1];
 		
-		System.out.println(maxRight);
+		System.out.println("Max Right " + maxRight);
 		
 		for(int index=length-2; index>=0;index--)
 		{
