@@ -5,6 +5,7 @@ public class ReverseCharacterOfWordsInStringWithStringBuildef {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	//Question20	
+		//append() adds something at the end of a StringBuilder object.
 		String input  = "This is Fun";
 		String words[]= input.split(" ");
 		
