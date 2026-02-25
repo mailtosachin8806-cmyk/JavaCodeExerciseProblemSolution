@@ -32,7 +32,7 @@ public class findLargetsNumber {
 		@Test
 		public void findThirdSecondFirstMax() {
 		
-		int[] arr = {2,2,2,2,2,2};
+		int[] arr = {1,2,3,2,2,12};
 		
 		int firstMax = Integer.MIN_VALUE;
 		int secondMax = Integer.MIN_VALUE;

@@ -22,6 +22,7 @@ public class UniqueSubString {
 			if(set.add(word))
 			{
 				sb.append(word);
+		
 			}
 		}
 		
