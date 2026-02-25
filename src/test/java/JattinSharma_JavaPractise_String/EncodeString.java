@@ -6,7 +6,7 @@ public class EncodeString {
 		// TODO Auto-generated method stub
 //Question no. 28
 		
-		String input = "ddmmmtttaacc";
+		String input = "ddmmmttta";
 		StringBuilder sb = new StringBuilder();
 		
 		int count=1;
@@ -22,7 +22,9 @@ public class EncodeString {
 				sb.append(count);
 				count=1;
 			}
-		}	
+		}
+		sb.append(input.charAt(input.length()-1));
+		sb.append(count);
 		System.out.println(sb);
 	}
 
