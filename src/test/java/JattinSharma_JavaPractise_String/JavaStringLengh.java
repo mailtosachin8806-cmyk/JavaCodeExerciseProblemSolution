@@ -16,6 +16,7 @@ public class JavaStringLengh {
 		int count=0;
 		for(char x:character)
 		{
+			if(Character.isLetterOrDigit(x))
 			count++;
 			
 		}
