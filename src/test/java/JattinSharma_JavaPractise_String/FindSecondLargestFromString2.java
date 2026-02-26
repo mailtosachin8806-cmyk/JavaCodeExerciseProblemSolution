@@ -8,6 +8,7 @@ public class FindSecondLargestFromString2 {
 		// TODO Auto-generated method stub
 /*
  * how to convert a char to int --> int x = char-'0'
+ * To print a integer in a assending order
  */
 		
 		String input = "abc123de05";
