@@ -19,8 +19,8 @@ public class RemoveDuplicateElementsFromArray {
 		System.out.println(Arrays.toString(a));
 		// output [20, 30, 10, 40, 90, 50, 60]
 		Set<Integer> dataSet = new LinkedHashSet<Integer>();
-		Integer i = new Integer(20); //20 is a integer type object.
-		int data2 = i.intValue();
+//		Integer i = new Integer(20); //20 is a integer type object.
+//		int data2 = i.intValue();
 
 		for (int data : a) {
 			dataSet.add(data);
