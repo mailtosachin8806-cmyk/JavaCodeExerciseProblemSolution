@@ -16,6 +16,11 @@ public class java_matrix {
 		a[1][1]=5;
 		a[1][2]=6;
 		
+		if(a == null || a.length==0 || a[0].length== 0) {
+			System.out.println("Transpose is not possible");
+		}
+		
+		else {
 		for(int rows=0;rows<a.length;rows++)
 		{
 			for(int col =0;col<a[0].length;col++)
@@ -46,6 +51,7 @@ public class java_matrix {
 		}
 		
 		
+	}
 	}
 
 }
