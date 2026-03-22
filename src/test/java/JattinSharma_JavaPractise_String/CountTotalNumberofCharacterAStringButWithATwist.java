@@ -2,6 +2,9 @@ package JattinSharma_JavaPractise_String;
 
 public class CountTotalNumberofCharacterAStringButWithATwist {
 //Question 12
+	/*
+	 * Tell me the total no of char that don't have whites space before and after 
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String input ="My name is sachin ";
