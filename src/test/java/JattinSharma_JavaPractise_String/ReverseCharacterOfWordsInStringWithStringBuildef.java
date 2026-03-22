@@ -15,8 +15,8 @@ public class ReverseCharacterOfWordsInStringWithStringBuildef {
 			StringBuilder reverseWords = new StringBuilder(word);
 			result.append(reverseWords.reverse().append(" "));
 		}
-		
-		System.out.println(result);
+		System.out.println("Original String : " + input );
+		System.out.println("Reverse String : " + result);
 	}
 
 }
