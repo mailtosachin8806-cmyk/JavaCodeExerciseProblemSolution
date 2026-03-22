@@ -7,10 +7,11 @@ public class CountTotalNumberofCharacterAStringButWithATwist {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String input ="My name is sachin ";
+		String input =" My name is sachin ";
 		int count =0;
 		
 			char dataArray[]   = input.toCharArray();
+			
 			
 			for(int index=0; index<dataArray.length;index++)
 			{
