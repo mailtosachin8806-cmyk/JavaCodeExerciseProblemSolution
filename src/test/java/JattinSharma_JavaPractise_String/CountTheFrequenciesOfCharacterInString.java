@@ -18,7 +18,7 @@ public class CountTheFrequenciesOfCharacterInString {
 		System.out.println(result);
 
 		for (Map.Entry<Character, Integer> entry : result.entrySet()) {
-			System.out.println(entry.getKey() + " " + entry.getValue());
+			System.out.println(entry.getKey() + "=" + entry.getValue());
 		}
 
 	}
