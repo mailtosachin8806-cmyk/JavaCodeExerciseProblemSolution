@@ -1,6 +1,6 @@
 package JattinSharma_JavaPractise_String;
 
-public class FindSecondLargestFromString {
+public class findSecondLargestFromString {
 //Question 10
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
