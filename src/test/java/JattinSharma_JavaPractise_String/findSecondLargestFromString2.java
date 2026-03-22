@@ -2,7 +2,7 @@ package JattinSharma_JavaPractise_String;
 
 import java.util.TreeSet;
 
-public class FindSecondLargestFromString2 {
+public class findSecondLargestFromString2 {
 //Question 11
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
