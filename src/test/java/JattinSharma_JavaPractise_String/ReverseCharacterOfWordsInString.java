@@ -10,7 +10,6 @@ public class ReverseCharacterOfWordsInString {
 		String words[]= input.split(" ");
 		String result = " ";
 		
-		StringBuilder sb  = new StringBuilder();
 		for(String word:words)
 		{
 		 char[] Character = word.toCharArray();
