@@ -28,7 +28,8 @@ public class FindSecondLargestFromString {
 		for(char character:data) {
 			if(Character.isDigit(character))
 			{
-				num= character-'0'; //convert char into a number
+		//		num= character-'0'; //convert char into a number
+				num = Character.getNumericValue(character); //We can use this method also to convert char into a number
 				if(num>first) {					
 					second=first;
 					first= num;
