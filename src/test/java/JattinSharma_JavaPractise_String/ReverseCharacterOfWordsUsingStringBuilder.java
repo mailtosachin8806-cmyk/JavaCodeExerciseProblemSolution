@@ -1,7 +1,7 @@
 package JattinSharma_JavaPractise_String;
 
-public class ReverseCharacterOfWordsInString {
-//Question 8
+public class ReverseCharacterOfWordsUsingStringBuilder {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //Question19
@@ -26,14 +26,13 @@ public class ReverseCharacterOfWordsInString {
 			 right--;		 
 		 }
 		 
-		 result = result + new String(Character) + " ";	 
-		
+		 
+		 sb.append(Character).append(" ");	
 		 }
 		
 		System.out.println("Original String : " + input );
 		
-		System.out.println("Reverse String : " + result.trim() );
-		
+		System.out.println("Reverse String : " + sb);
 		
 		
 		

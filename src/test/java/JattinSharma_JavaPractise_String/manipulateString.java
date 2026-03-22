@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class manipulateString {
 	
 	/*
+	 * Jatin sharma :- EY String manipulation
 	 * Input :- a1b2c3
 	 * Output :- a3b2c1
 	 */
