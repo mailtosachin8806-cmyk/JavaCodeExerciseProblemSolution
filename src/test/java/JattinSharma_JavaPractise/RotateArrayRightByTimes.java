@@ -8,7 +8,7 @@ public class RotateArrayRightByTimes {
 		// TODO Auto-generated method stub
 //Question no. 18
 		
-		int a[]= {1,2,3,4,5,6,7};
+		int a[]= {1,2,3,4,5,6,7,8};
 		//Rotate the array 3 times
 		int n=3;
 		int k= n % a.length;
