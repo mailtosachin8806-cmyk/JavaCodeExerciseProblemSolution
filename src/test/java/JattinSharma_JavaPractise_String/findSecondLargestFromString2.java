@@ -27,6 +27,7 @@ public class findSecondLargestFromString2 {
 			}
 		}
 		System.out.println("The data set " + dataSet);
+		System.out.println("The Desending Order data set " + dataSet.reversed());
 		dataSet.pollLast(); //Remove last element of treeset
 		System.out.println("The data set " + dataSet);
 		System.out.println(dataSet.last());
