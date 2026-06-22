@@ -18,7 +18,7 @@ import dto.Person;
 public class Stream_Intermediate {
 
 	@Test(description="Sort list of Employees By salary")
-	public void sotEmployeeBySalary() {
+	public void sortEmployeeBySalary() {
 		
 		List<Employee> myList = Arrays.asList(
 		new Employee(101,"John",5000),
