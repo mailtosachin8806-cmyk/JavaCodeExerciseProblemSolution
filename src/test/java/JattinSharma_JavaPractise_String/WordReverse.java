@@ -43,5 +43,40 @@ public class WordReverse {
 		
 		
 	}
+	
+	@Test
+	public void handleReverseWordString() {
+		
+		String input = "Sachin Gharsele";
+        String[] words = input.split(" ");
+
+        StringBuilder result = new StringBuilder();
+
+        for (int w = 0; w < words.length; w++) {
+
+            String word = words[w];
+
+            // Reverse only the first word
+            if (w == 0) {
+                word = new StringBuilder(word).reverse().toString();
+            }
+
+            StringBuilder temp = new StringBuilder();
+
+            for (int i = 0; i < word.length(); i++) {
+                char ch = word.charAt(i);
+
+                if (i % 2 == 0) {
+                    temp.append(Character.toUpperCase(ch));
+                } else {
+                    temp.append(Character.toLowerCase(ch));
+                }
+            }
+
+            result.append(temp).append(" ");
+        }
+
+        System.out.println(result.toString().trim());
+	}
 
 }

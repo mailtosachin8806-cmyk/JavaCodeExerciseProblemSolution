@@ -21,6 +21,14 @@ public class CountTheFrequenciesOfCharacterInString {
 			System.out.println(entry.getKey() + "=" + entry.getValue());
 		}
 
+		for(Map.Entry<Character,Integer> result2 :result.entrySet())
+	      {
+	          if(result2.getValue()==1)
+	          {
+	              System.out.println("The first value repeating is : " + result2.getKey());
+	              break;
+	          }
+	      }
 	}
 
 }
